@@ -1,113 +1,138 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>RealStep Studios</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css"/>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>RealStep Studios</title>
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75997847-7"></script>
-  </head>
-  <body>
+        <link rel="stylesheet" href="assets/css/metro-all.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
 
-    <nav class="navbar">
-      <a class="nav-item" href="#">RealStep Studios</a>
-      <a class="nav-item" href="#projects">Projects</a>
-      <a class="nav-item" href="#about">About</a>
-      <a class="nav-item" href="#contact">Contact</a>
-      <a class="nav-item" href="#blog">Blog</a>
-    </nav>
+        <!-- Google -->
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75997847-7"></script>
+    </head>
+    <body data-role="touch" class="bg-grayWhite">
 
-    <header class="header">
-      <span class="overlay"></span>
-      <span class="content">
-        <h1 class="title">RealStep Studios</h1>
-        <h3 class="subtitle">Just awesome in nature</h3>
-      </span>
-      <span class="down-arrow">
-          <svg aria-hidden="true" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
-      </span>
-    </header>
+        <main class="fluid-container">
+            <!-- Navigation -->
+            <nav class="bg-brandColor1 fg-white" data-role="appbar" data-expand-point="md">
+                <a href="/" class="brand no-hover">RealStep Studios</a>
+                <ul class="app-bar-menu">
+                    <li>
+                        <a href="#" class="dropdown-toggle">Projects</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li><a href="/projects/willsmediaserver">Wills Media Server</a></li>
+                            <li><a href="/projects/tapz">TapZ Incremental</a></li>
+                            <li class="divider bg-lightGray"></li>
+                            <li><a href="/projects">More Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
 
-    <main>
-      <span class="bar">
-        Hey there, go and check out what we do on our project pages 
-        <button class="button">Projects</button>
-      </span>
-    
-      <section class="section section-white">
-        <section class="half">
-            <h2>Hello, We are RealStep and we love creating stuff!</h2>
-            <p>
-              Realstep is a small group of aspiring developers who love 
-              to produce small but fun games and usefull applications on 
-              both web and desktop
-            </p>        
-        </section>
-        <section class="half">
-          <img class="mockup-image" src="img/test-mockup.PNG" alt="Image">
-        </section>
-      </section>
+            <!-- Carousel -->
+            <section class="bg-grayWhite"
+                data-role="carousel"
+                data-auto-start="true"
+                data-height="@ (min-width: 992px),21/9 | (min-width: 1100px),450px | (max-width: 992px),21/9 | (max-width: 768px),600px | (max-width: 576px),700px"
+                data-control-next="<i class='fas fa-chevron-right'></i>"
+                data-control-prev="<i class='fas fa-chevron-left'></i>"
+                data-period="8000"
+                data-duration="1000">
 
-      <section class="section section-adverts">
-        <p>Advertisement:</p>
-        <!-- RS-Studios-Home-WIP (We've gotta get that beautiful ad rev :) ) -->
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-1817516990902330"
-          data-ad-slot="6593870305"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      </section>
+                <div class="slide p-2 pl-10 pr-10">
+                    <div class="row flex-align-center h-100">
+                        <div class="cell-md-4 text-center">
+                            <img src="assets/img/wms-logo.png" alt="WillsMediaServer Logo" style="max-height:200px; max-width: 200px;">
+                        </div>
+                        <div class="cell-md-8">
+                            <h1 class="text-light">Wills Media Server</h1>
+                            <p class="mt-4 mb-4">WillsMediaServer is an in development media server where users are able to host their existing media library and serve them to all of their existing devices through a simple web user interface</p>
+                            
+                            <a class="button secondary fg-white" href="https://github.com/WillsMediaServer/WillsMediaServer">GitHub Page</a>
+                            <a class="button secondary fg-white" href="/projects/willsmediaserver">Project Page</a>
+                        </div>
+                    </div>
+                </div>
 
-      <section class="section section-indigo">
-        <section class="third product">
-          <h3>TapZ Incremental</h3>
-          <img class="product-image" src="https://via.placeholder.com/480x360" alt="">
-          <p>
-            TapZ Incremental is - obviously - an incremntal where you fight zombies that are 
-            coming to attack you. To defend yourself, you need to kill zombies, harvest their 
-            brains and somehow convert that into money to upgrade tools and helpers you pick up 
-            along your journey
-          </p>
-          <span>
-            <a href="https://github.com/wsngamerz/TapZ-Incremental" class="button">GitHub</a>
-            <a href="https://wsngamerz.github.io/TapZ-Incremental/" class="button">Play</a>
-          </span>
-        </section>
+                <div class="slide p-2 pl-10 pr-10">
+                        <div class="row flex-align-center h-100">
+                            <div class="cell-md-4 text-center">
+                                <img src="assets/img/tapz-logo.png" alt="TapZ Logo" style="max-height:200px; max-width: 200px;">
+                            </div>
+                            <div class="cell-md-8">
+                                <h1 class="text-light">TapZ Incremental</h1>
+                                <p class="mt-4 mb-4">TapZ Incremental is a game where you fight zombies that are attacking you. To defend yourself, you need to kill them, harvest their brains and convert them into money to upgrade tools and helpers that you pick up along the way</p>
+                                
+                                <a class="button secondary fg-white" href="https://wsngamerz.github.io/TapZ-Incremental">Play Now</a>
+                                <a class="button secondary fg-white" href="https://github.com/wsngamerz/TapZ-Incremental">GitHub Page</a>
+                                <a class="button secondary fg-white" href="/projects/tapz">Project Page</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
 
-        <section class="third product">
-          <h3>WillsMediaServer</h3>
-          <img class="product-image" src="https://via.placeholder.com/480x360" alt="">
-          <p>
-            WillsMediaServer is meant to be a product which solves the issue of wanting to stream 
-            all of your own media arround the house on any device which automatic metadata gathering 
-            with the detail of spotify and the featureset of plex but without any cost.
-          </p>
-          <span>
-            <a href="https://github.com/WillsMediaServer/WillsMediaServer" class="button">GitHub</a>
-          </span>
-        </section>
+            <section id="about" class="p-10 container bg-white text-center drop-shadow">
+                <span class="fa-stack fa-4x m-4">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+                </span>
 
-        <section class="third product blank-product">
-          <h4>More projects hopefully coming soon</h4>
-        </section>
-      </section>
-    </main>
+                <h2 class="sub-title">About us</h3>
 
-    <footer class="footer">
-      &copy; RealStep Studios 2017 - 2019
-    </footer>
+                <p class="p-2">
+                    RealStep Studios is a young but adventurous group of programmers who enjoy trying to create applications and games using new technologies!
+                </p>
+                <a class="button success m-2" href="/about">Read More</a>
+            </section>
 
-    <script>
-        // Google Ads
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        
-        // Google Analytics
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-75997847-7');
-      </script>
-  </body>
+            <section id="contact" class="p-10 container bg-white text-center mt-5 mb-5 drop-shadow">
+                    <span class="fa-stack fa-4x m-4">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-at fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    <h2 class="sub-title">Contact us</h3>
+                    
+                    <p class="p-2">
+                        You can contact us through sending us an email at:
+                        <code><s>info@realstep.co.uk</s></code>
+                        or by leaving an issue on one of our projects on github
+                    </p>
+
+                    <a class="button success m-2" href="/contact">Find more ways</a>
+            </section>
+
+            <section class="bg-darkGrayBlue fg-white p-10">
+                <p>&copy; 2017-2019 RealStep Studios</p>
+                <a class="fg-white" href="/">Home</a>
+                <a class="fg-white" href="/projects">Projects</a>
+                <a class="fg-white" href="/about">About</a>
+                <a class="fg-white" href="/contact">Contact</a>
+                <a class="fg-white" href="#">Blog</a>
+            </section>
+
+            <script>
+                // Google Ads
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                
+                // Google Analytics
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-75997847-7');
+            </script>
+        </main>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/metro.min.js"></script>
+    </body>
 </html>
