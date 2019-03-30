@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://realstep.co.uk/</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://realstep.co.uk/projects/willsmediaserver</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://realstep.co.uk/projects/tapz</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://realstep.co.uk/projects</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://realstep.co.uk/about</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>http://realstep.co.uk/contact</loc>
+        <changefreq>daily</changefreq>
+    </url>
+</urlset>
